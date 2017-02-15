@@ -10,8 +10,10 @@ Visit website at: [https://image-abstraction.gomix.me/](https://image-abstractio
 
 #### Example Usage:
 ```javascript
-const url = 'https://image-abstraction.gomix.me/api/search/computer?offset=2&results=3'
-$.get(url).then(data => console.log(data))
+$(document).ready(() => {
+  const url = 'https://image-abstraction.gomix.me/api/search/computer?offset=2&results=3'
+  $.get(url).then(data => console.log(data))
+})
 ```
 
 #### Example Output:
