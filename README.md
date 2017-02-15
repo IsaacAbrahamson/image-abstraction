@@ -1,8 +1,8 @@
 Visit website at: [https://image-abstraction.gomix.me/](https://image-abstraction.gomix.me/)
 
 #### Endpoints:
-- /api/latest
-- /api/search/<photoName>?(parameters)
+- `/api/latest`
+- `/api/search/<photoName>?(parameters)`
 
 #### Query Parameters:
 - offset (default = 1)
