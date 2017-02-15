@@ -23,7 +23,7 @@ function updateLatest(query, offset, results) {
 }
 
 app.get('/', (req, res) => {
-  res.send('Hello world!')
+  res.send('Need help?</br><a href="https://github.com/IsaacAbrahamson/image-abstraction" target="_blank">Visit Repository</a>')
 })
 
 app.get('/api/latest', (req, res) => res.json(latest))
