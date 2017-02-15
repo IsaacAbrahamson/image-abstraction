@@ -22,6 +22,13 @@ function updateLatest(query, offset, results) {
   console.log(latest)
 }
 
+// enable CORS
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next()
+})
+
 app.get('/', (req, res) => {
   res.send('Need help?</br><a href="https://github.com/IsaacAbrahamson/image-abstraction" target="_blank">Visit Repository</a>')
 })
