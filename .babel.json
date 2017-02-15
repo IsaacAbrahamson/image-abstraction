@@ -1,0 +1,584 @@
+{
+  "{\"filename\":\"/app/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.18.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "mz/fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/app.js",
+      "filenameRelative": "/app/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _fs = require('mz/fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0EiLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6Ii9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZnMgZnJvbSAnbXovZnMnXG5pbXBvcnQgRXhwcmVzcyBmcm9tICdleHByZXNzJyJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA",
+      "file": "app.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import fs from 'mz/fs'\nimport Express from 'express'"
+      ]
+    },
+    "mtime": 1487035495800
+  },
+  "{\"filename\":\"/app/app.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.23.0": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Express"
+              }
+            ]
+          },
+          {
+            "source": "isomorphic-fetch",
+            "imported": [],
+            "specifiers": []
+          },
+          {
+            "source": "unsplash-js",
+            "imported": [
+              "default",
+              "toJson"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Unsplash"
+              },
+              {
+                "kind": "named",
+                "imported": "toJson",
+                "local": "toJson"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/app.js",
+      "filenameRelative": "/app/app.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "app.js",
+      "sourceFileName": "app.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "app"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nrequire('isomorphic-fetch');\n\nvar _unsplashJs = require('unsplash-js');\n\nvar _unsplashJs2 = _interopRequireDefault(_unsplashJs);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar unsplash = new _unsplashJs2.default({\n  applicationId: process.env.applicationId,\n  secret: process.env.secret,\n  callbackUrl: process.env.callbackUrl\n});\n\nvar app = (0, _express2.default)();\nvar latest = [{ 'date': Date.now() }];\n\nfunction updateLatest(query, offset, results) {\n  if (latest.length == 10) latest.shift();\n  latest.push({\n    'query': query,\n    'offset': offset,\n    'results': results,\n    'date': Date.now()\n  });\n  console.log(latest);\n}\n\napp.get('/', function (req, res) {\n  res.send('Hello world!');\n});\n\napp.get('/api/latest', function (req, res) {\n  return res.json(latest);\n});\n\napp.get('/api/search/:photo', function (req, res) {\n  var query = req.params.photo;\n  var offset = req.query.offset || 1;\n  var results = req.query.results || 5;\n\n  unsplash.search.photos(query, offset, results).then(_unsplashJs.toJson).then(function (json) {\n    if (offset > json.total_pages) {\n      var error = new Error();\n      error.stack = 'Offset (' + offset + ') exceeds number of pages available (' + json.total_pages + ')';\n      throw error;\n    }\n\n    var photos = [];\n    var _iteratorNormalCompletion = true;\n    var _didIteratorError = false;\n    var _iteratorError = undefined;\n\n    try {\n      for (var _iterator = json.results[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n        var photo = _step.value;\n\n        photos.push({\n          photographer: photo.user.name + ' | Unsplash',\n          raw: photo.urls.raw,\n          full: photo.urls.full,\n          regular: photo.urls.regular,\n          small: photo.urls.small,\n          thumbnail: photo.urls.thumb,\n          alt: query + ' photo by ' + photo.user.name + ' courtesy of Unsplash'\n        });\n      }\n    } catch (err) {\n      _didIteratorError = true;\n      _iteratorError = err;\n    } finally {\n      try {\n        if (!_iteratorNormalCompletion && _iterator.return) {\n          _iterator.return();\n        }\n      } finally {\n        if (_didIteratorError) {\n          throw _iteratorError;\n        }\n      }\n    }\n\n    res.json({ \"Total Pages\": json.total_pages, photos: photos });\n    updateLatest(query, offset, results);\n  }).catch(function (err) {\n    if (err.stack) res.json({ error: err.stack });else res.json({ err: 'An error occured.' });\n  });\n});\n\napp.listen(process.env.PORT);\nconsole.log('listening on port ' + process.env.PORT + '...');\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6WyJ1bnNwbGFzaCIsImFwcGxpY2F0aW9uSWQiLCJwcm9jZXNzIiwiZW52Iiwic2VjcmV0IiwiY2FsbGJhY2tVcmwiLCJhcHAiLCJsYXRlc3QiLCJEYXRlIiwibm93IiwidXBkYXRlTGF0ZXN0IiwicXVlcnkiLCJvZmZzZXQiLCJyZXN1bHRzIiwibGVuZ3RoIiwic2hpZnQiLCJwdXNoIiwiY29uc29sZSIsImxvZyIsImdldCIsInJlcSIsInJlcyIsInNlbmQiLCJqc29uIiwicGFyYW1zIiwicGhvdG8iLCJzZWFyY2giLCJwaG90b3MiLCJ0aGVuIiwidG90YWxfcGFnZXMiLCJlcnJvciIsIkVycm9yIiwic3RhY2siLCJwaG90b2dyYXBoZXIiLCJ1c2VyIiwibmFtZSIsInJhdyIsInVybHMiLCJmdWxsIiwicmVndWxhciIsInNtYWxsIiwidGh1bWJuYWlsIiwidGh1bWIiLCJhbHQiLCJjYXRjaCIsImVyciIsImxpc3RlbiIsIlBPUlQiXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsV0FBVyx5QkFBYTtBQUM1QkMsaUJBQWVDLFFBQVFDLEdBQVIsQ0FBWUYsYUFEQztBQUU1QkcsVUFBUUYsUUFBUUMsR0FBUixDQUFZQyxNQUZRO0FBRzVCQyxlQUFhSCxRQUFRQyxHQUFSLENBQVlFO0FBSEcsQ0FBYixDQUFqQjs7QUFNQSxJQUFNQyxNQUFNLHdCQUFaO0FBQ0EsSUFBTUMsU0FBUyxDQUFDLEVBQUMsUUFBUUMsS0FBS0MsR0FBTCxFQUFULEVBQUQsQ0FBZjs7QUFFQSxTQUFTQyxZQUFULENBQXNCQyxLQUF0QixFQUE2QkMsTUFBN0IsRUFBcUNDLE9BQXJDLEVBQThDO0FBQzVDLE1BQUlOLE9BQU9PLE1BQVAsSUFBaUIsRUFBckIsRUFBeUJQLE9BQU9RLEtBQVA7QUFDekJSLFNBQU9TLElBQVAsQ0FBWTtBQUNWLGFBQVNMLEtBREM7QUFFVixjQUFVQyxNQUZBO0FBR1YsZUFBV0MsT0FIRDtBQUlWLFlBQVFMLEtBQUtDLEdBQUw7QUFKRSxHQUFaO0FBTUFRLFVBQVFDLEdBQVIsQ0FBWVgsTUFBWjtBQUNEOztBQUVERCxJQUFJYSxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQ3pCQSxNQUFJQyxJQUFKLENBQVMsY0FBVDtBQUNELENBRkQ7O0FBSUFoQixJQUFJYSxHQUFKLENBQVEsYUFBUixFQUF1QixVQUFDQyxHQUFELEVBQU1DLEdBQU47QUFBQSxTQUFjQSxJQUFJRSxJQUFKLENBQVNoQixNQUFULENBQWQ7QUFBQSxDQUF2Qjs7QUFFQUQsSUFBSWEsR0FBSixDQUFRLG9CQUFSLEVBQThCLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQzFDLE1BQUlWLFFBQVFTLElBQUlJLE1BQUosQ0FBV0MsS0FBdkI7QUFDQSxNQUFJYixTQUFTUSxJQUFJVCxLQUFKLENBQVVDLE1BQVYsSUFBb0IsQ0FBakM7QUFDQSxNQUFJQyxVQUFVTyxJQUFJVCxLQUFKLENBQVVFLE9BQVYsSUFBcUIsQ0FBbkM7O0FBRUFiLFdBQVMwQixNQUFULENBQWdCQyxNQUFoQixDQUF1QmhCLEtBQXZCLEVBQThCQyxNQUE5QixFQUFzQ0MsT0FBdEMsRUFDQ2UsSUFERCxxQkFFQ0EsSUFGRCxDQUVNLGdCQUFRO0FBQ1osUUFBSWhCLFNBQVNXLEtBQUtNLFdBQWxCLEVBQStCO0FBQzdCLFVBQUlDLFFBQVEsSUFBSUMsS0FBSixFQUFaO0FBQ0FELFlBQU1FLEtBQU4sZ0JBQXlCcEIsTUFBekIsNkNBQXVFVyxLQUFLTSxXQUE1RTtBQUNBLFlBQU1DLEtBQU47QUFDRDs7QUFFRCxRQUFJSCxTQUFTLEVBQWI7QUFQWTtBQUFBO0FBQUE7O0FBQUE7QUFRWiwyQkFBa0JKLEtBQUtWLE9BQXZCLDhIQUFnQztBQUFBLFlBQXZCWSxLQUF1Qjs7QUFDOUJFLGVBQU9YLElBQVAsQ0FBWTtBQUNWaUIsd0JBQWNSLE1BQU1TLElBQU4sQ0FBV0MsSUFBWCxHQUFrQixhQUR0QjtBQUVWQyxlQUFLWCxNQUFNWSxJQUFOLENBQVdELEdBRk47QUFHVkUsZ0JBQU1iLE1BQU1ZLElBQU4sQ0FBV0MsSUFIUDtBQUlWQyxtQkFBU2QsTUFBTVksSUFBTixDQUFXRSxPQUpWO0FBS1ZDLGlCQUFPZixNQUFNWSxJQUFOLENBQVdHLEtBTFI7QUFNVkMscUJBQVdoQixNQUFNWSxJQUFOLENBQVdLLEtBTlo7QUFPVkMsZUFBUWhDLEtBQVIsa0JBQTBCYyxNQUFNUyxJQUFOLENBQVdDLElBQXJDO0FBUFUsU0FBWjtBQVNEO0FBbEJXO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7O0FBb0JaZCxRQUFJRSxJQUFKLENBQVMsRUFBQyxlQUFlQSxLQUFLTSxXQUFyQixFQUFrQ0YsY0FBbEMsRUFBVDtBQUNBakIsaUJBQWFDLEtBQWIsRUFBb0JDLE1BQXBCLEVBQTRCQyxPQUE1QjtBQUNELEdBeEJELEVBeUJDK0IsS0F6QkQsQ0F5Qk8sZUFBTztBQUNaLFFBQUlDLElBQUliLEtBQVIsRUFBZVgsSUFBSUUsSUFBSixDQUFTLEVBQUNPLE9BQU9lLElBQUliLEtBQVosRUFBVCxFQUFmLEtBQ0tYLElBQUlFLElBQUosQ0FBUyxFQUFDc0IsS0FBSyxtQkFBTixFQUFUO0FBQ04sR0E1QkQ7QUE2QkQsQ0FsQ0Q7O0FBb0NBdkMsSUFBSXdDLE1BQUosQ0FBVzVDLFFBQVFDLEdBQVIsQ0FBWTRDLElBQXZCO0FBQ0E5QixRQUFRQyxHQUFSLHdCQUFpQ2hCLFFBQVFDLEdBQVIsQ0FBWTRDLElBQTdDIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEV4cHJlc3MgZnJvbSAnZXhwcmVzcydcbmltcG9ydCAnaXNvbW9ycGhpYy1mZXRjaCdcbmltcG9ydCBVbnNwbGFzaCwgeyB0b0pzb24gfSBmcm9tICd1bnNwbGFzaC1qcydcblxuY29uc3QgdW5zcGxhc2ggPSBuZXcgVW5zcGxhc2goe1xuICBhcHBsaWNhdGlvbklkOiBwcm9jZXNzLmVudi5hcHBsaWNhdGlvbklkLFxuICBzZWNyZXQ6IHByb2Nlc3MuZW52LnNlY3JldCxcbiAgY2FsbGJhY2tVcmw6IHByb2Nlc3MuZW52LmNhbGxiYWNrVXJsXG59KVxuXG5jb25zdCBhcHAgPSBFeHByZXNzKClcbmNvbnN0IGxhdGVzdCA9IFt7J2RhdGUnOiBEYXRlLm5vdygpfV1cblxuZnVuY3Rpb24gdXBkYXRlTGF0ZXN0KHF1ZXJ5LCBvZmZzZXQsIHJlc3VsdHMpIHtcbiAgaWYgKGxhdGVzdC5sZW5ndGggPT0gMTApIGxhdGVzdC5zaGlmdCgpXG4gIGxhdGVzdC5wdXNoKHtcbiAgICAncXVlcnknOiBxdWVyeSxcbiAgICAnb2Zmc2V0Jzogb2Zmc2V0LFxuICAgICdyZXN1bHRzJzogcmVzdWx0cyxcbiAgICAnZGF0ZSc6IERhdGUubm93KClcbiAgfSlcbiAgY29uc29sZS5sb2cobGF0ZXN0KVxufVxuXG5hcHAuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7XG4gIHJlcy5zZW5kKCdIZWxsbyB3b3JsZCEnKVxufSlcblxuYXBwLmdldCgnL2FwaS9sYXRlc3QnLCAocmVxLCByZXMpID0+IHJlcy5qc29uKGxhdGVzdCkpXG5cbmFwcC5nZXQoJy9hcGkvc2VhcmNoLzpwaG90bycsIChyZXEsIHJlcykgPT4ge1xuICB2YXIgcXVlcnkgPSByZXEucGFyYW1zLnBob3RvXG4gIHZhciBvZmZzZXQgPSByZXEucXVlcnkub2Zmc2V0IHx8IDFcbiAgdmFyIHJlc3VsdHMgPSByZXEucXVlcnkucmVzdWx0cyB8fCA1XG4gIFxuICB1bnNwbGFzaC5zZWFyY2gucGhvdG9zKHF1ZXJ5LCBvZmZzZXQsIHJlc3VsdHMpXG4gIC50aGVuKHRvSnNvbilcbiAgLnRoZW4oanNvbiA9PiB7XG4gICAgaWYgKG9mZnNldCA+IGpzb24udG90YWxfcGFnZXMpIHtcbiAgICAgIHZhciBlcnJvciA9IG5ldyBFcnJvcigpXG4gICAgICBlcnJvci5zdGFjayA9IGBPZmZzZXQgKCR7b2Zmc2V0fSkgZXhjZWVkcyBudW1iZXIgb2YgcGFnZXMgYXZhaWxhYmxlICgke2pzb24udG90YWxfcGFnZXN9KWBcbiAgICAgIHRocm93IGVycm9yXG4gICAgfVxuICAgIFxuICAgIHZhciBwaG90b3MgPSBbXSAgICBcbiAgICBmb3IgKHZhciBwaG90byBvZiBqc29uLnJlc3VsdHMpIHsgICAgIFxuICAgICAgcGhvdG9zLnB1c2goe1xuICAgICAgICBwaG90b2dyYXBoZXI6IHBob3RvLnVzZXIubmFtZSArICcgfCBVbnNwbGFzaCcsXG4gICAgICAgIHJhdzogcGhvdG8udXJscy5yYXcsXG4gICAgICAgIGZ1bGw6IHBob3RvLnVybHMuZnVsbCxcbiAgICAgICAgcmVndWxhcjogcGhvdG8udXJscy5yZWd1bGFyLFxuICAgICAgICBzbWFsbDogcGhvdG8udXJscy5zbWFsbCxcbiAgICAgICAgdGh1bWJuYWlsOiBwaG90by51cmxzLnRodW1iLFxuICAgICAgICBhbHQ6IGAke3F1ZXJ5fSBwaG90byBieSAke3Bob3RvLnVzZXIubmFtZX0gY291cnRlc3kgb2YgVW5zcGxhc2hgXG4gICAgICB9KVxuICAgIH1cbiAgICBcbiAgICByZXMuanNvbih7XCJUb3RhbCBQYWdlc1wiOiBqc29uLnRvdGFsX3BhZ2VzLCBwaG90b3N9KVxuICAgIHVwZGF0ZUxhdGVzdChxdWVyeSwgb2Zmc2V0LCByZXN1bHRzKVxuICB9KVxuICAuY2F0Y2goZXJyID0+IHtcbiAgICBpZiAoZXJyLnN0YWNrKSByZXMuanNvbih7ZXJyb3I6IGVyci5zdGFja30pXG4gICAgZWxzZSByZXMuanNvbih7ZXJyOiAnQW4gZXJyb3Igb2NjdXJlZC4nfSlcbiAgfSkgIFxufSlcblxuYXBwLmxpc3Rlbihwcm9jZXNzLmVudi5QT1JUKVxuY29uc29sZS5sb2coYGxpc3RlbmluZyBvbiBwb3J0ICR7cHJvY2Vzcy5lbnYuUE9SVH0uLi5gKSJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app.js"
+      ],
+      "names": [
+        "unsplash",
+        "applicationId",
+        "process",
+        "env",
+        "secret",
+        "callbackUrl",
+        "app",
+        "latest",
+        "Date",
+        "now",
+        "updateLatest",
+        "query",
+        "offset",
+        "results",
+        "length",
+        "shift",
+        "push",
+        "console",
+        "log",
+        "get",
+        "req",
+        "res",
+        "send",
+        "json",
+        "params",
+        "photo",
+        "search",
+        "photos",
+        "then",
+        "total_pages",
+        "error",
+        "Error",
+        "stack",
+        "photographer",
+        "user",
+        "name",
+        "raw",
+        "urls",
+        "full",
+        "regular",
+        "small",
+        "thumbnail",
+        "thumb",
+        "alt",
+        "catch",
+        "err",
+        "listen",
+        "PORT"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;AACA;;;;;;AAEA,IAAMA,WAAW,yBAAa;AAC5BC,iBAAeC,QAAQC,GAAR,CAAYF,aADC;AAE5BG,UAAQF,QAAQC,GAAR,CAAYC,MAFQ;AAG5BC,eAAaH,QAAQC,GAAR,CAAYE;AAHG,CAAb,CAAjB;;AAMA,IAAMC,MAAM,wBAAZ;AACA,IAAMC,SAAS,CAAC,EAAC,QAAQC,KAAKC,GAAL,EAAT,EAAD,CAAf;;AAEA,SAASC,YAAT,CAAsBC,KAAtB,EAA6BC,MAA7B,EAAqCC,OAArC,EAA8C;AAC5C,MAAIN,OAAOO,MAAP,IAAiB,EAArB,EAAyBP,OAAOQ,KAAP;AACzBR,SAAOS,IAAP,CAAY;AACV,aAASL,KADC;AAEV,cAAUC,MAFA;AAGV,eAAWC,OAHD;AAIV,YAAQL,KAAKC,GAAL;AAJE,GAAZ;AAMAQ,UAAQC,GAAR,CAAYX,MAAZ;AACD;;AAEDD,IAAIa,GAAJ,CAAQ,GAAR,EAAa,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzBA,MAAIC,IAAJ,CAAS,cAAT;AACD,CAFD;;AAIAhB,IAAIa,GAAJ,CAAQ,aAAR,EAAuB,UAACC,GAAD,EAAMC,GAAN;AAAA,SAAcA,IAAIE,IAAJ,CAAShB,MAAT,CAAd;AAAA,CAAvB;;AAEAD,IAAIa,GAAJ,CAAQ,oBAAR,EAA8B,UAACC,GAAD,EAAMC,GAAN,EAAc;AAC1C,MAAIV,QAAQS,IAAII,MAAJ,CAAWC,KAAvB;AACA,MAAIb,SAASQ,IAAIT,KAAJ,CAAUC,MAAV,IAAoB,CAAjC;AACA,MAAIC,UAAUO,IAAIT,KAAJ,CAAUE,OAAV,IAAqB,CAAnC;;AAEAb,WAAS0B,MAAT,CAAgBC,MAAhB,CAAuBhB,KAAvB,EAA8BC,MAA9B,EAAsCC,OAAtC,EACCe,IADD,qBAECA,IAFD,CAEM,gBAAQ;AACZ,QAAIhB,SAASW,KAAKM,WAAlB,EAA+B;AAC7B,UAAIC,QAAQ,IAAIC,KAAJ,EAAZ;AACAD,YAAME,KAAN,gBAAyBpB,MAAzB,6CAAuEW,KAAKM,WAA5E;AACA,YAAMC,KAAN;AACD;;AAED,QAAIH,SAAS,EAAb;AAPY;AAAA;AAAA;;AAAA;AAQZ,2BAAkBJ,KAAKV,OAAvB,8HAAgC;AAAA,YAAvBY,KAAuB;;AAC9BE,eAAOX,IAAP,CAAY;AACViB,wBAAcR,MAAMS,IAAN,CAAWC,IAAX,GAAkB,aADtB;AAEVC,eAAKX,MAAMY,IAAN,CAAWD,GAFN;AAGVE,gBAAMb,MAAMY,IAAN,CAAWC,IAHP;AAIVC,mBAASd,MAAMY,IAAN,CAAWE,OAJV;AAKVC,iBAAOf,MAAMY,IAAN,CAAWG,KALR;AAMVC,qBAAWhB,MAAMY,IAAN,CAAWK,KANZ;AAOVC,eAAQhC,KAAR,kBAA0Bc,MAAMS,IAAN,CAAWC,IAArC;AAPU,SAAZ;AASD;AAlBW;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAoBZd,QAAIE,IAAJ,CAAS,EAAC,eAAeA,KAAKM,WAArB,EAAkCF,cAAlC,EAAT;AACAjB,iBAAaC,KAAb,EAAoBC,MAApB,EAA4BC,OAA5B;AACD,GAxBD,EAyBC+B,KAzBD,CAyBO,eAAO;AACZ,QAAIC,IAAIb,KAAR,EAAeX,IAAIE,IAAJ,CAAS,EAACO,OAAOe,IAAIb,KAAZ,EAAT,EAAf,KACKX,IAAIE,IAAJ,CAAS,EAACsB,KAAK,mBAAN,EAAT;AACN,GA5BD;AA6BD,CAlCD;;AAoCAvC,IAAIwC,MAAJ,CAAW5C,QAAQC,GAAR,CAAY4C,IAAvB;AACA9B,QAAQC,GAAR,wBAAiChB,QAAQC,GAAR,CAAY4C,IAA7C",
+      "file": "app.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Express from 'express'\nimport 'isomorphic-fetch'\nimport Unsplash, { toJson } from 'unsplash-js'\n\nconst unsplash = new Unsplash({\n  applicationId: process.env.applicationId,\n  secret: process.env.secret,\n  callbackUrl: process.env.callbackUrl\n})\n\nconst app = Express()\nconst latest = [{'date': Date.now()}]\n\nfunction updateLatest(query, offset, results) {\n  if (latest.length == 10) latest.shift()\n  latest.push({\n    'query': query,\n    'offset': offset,\n    'results': results,\n    'date': Date.now()\n  })\n  console.log(latest)\n}\n\napp.get('/', (req, res) => {\n  res.send('Hello world!')\n})\n\napp.get('/api/latest', (req, res) => res.json(latest))\n\napp.get('/api/search/:photo', (req, res) => {\n  var query = req.params.photo\n  var offset = req.query.offset || 1\n  var results = req.query.results || 5\n  \n  unsplash.search.photos(query, offset, results)\n  .then(toJson)\n  .then(json => {\n    if (offset > json.total_pages) {\n      var error = new Error()\n      error.stack = `Offset (${offset}) exceeds number of pages available (${json.total_pages})`\n      throw error\n    }\n    \n    var photos = []    \n    for (var photo of json.results) {     \n      photos.push({\n        photographer: photo.user.name + ' | Unsplash',\n        raw: photo.urls.raw,\n        full: photo.urls.full,\n        regular: photo.urls.regular,\n        small: photo.urls.small,\n        thumbnail: photo.urls.thumb,\n        alt: `${query} photo by ${photo.user.name} courtesy of Unsplash`\n      })\n    }\n    \n    res.json({\"Total Pages\": json.total_pages, photos})\n    updateLatest(query, offset, results)\n  })\n  .catch(err => {\n    if (err.stack) res.json({error: err.stack})\n    else res.json({err: 'An error occured.'})\n  })  \n})\n\napp.listen(process.env.PORT)\nconsole.log(`listening on port ${process.env.PORT}...`)"
+      ]
+    },
+    "mtime": 1487125580616
+  }
+}
